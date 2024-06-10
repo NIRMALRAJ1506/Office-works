@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h2>Form</h2>
+    <form method="post">
+        <div>
+        <label for="fname">Enter Your First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter First Name" pattern="^[a-zA-z ]{3,20}$" required> <br><br>
+        <label for="lname">Enter Your Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter Last Name" required> 
+        </div><br>
+        <div>
+            <label for="pass">Enter Your Password:</label>
+            <input type="password" name="pass" id="pass" pattern="^[a-zA-Z]{5,10}$" required>
+        </div><br>
+        <div>
+            <label for="uemail">Enter Your Email:</label>
+            <input type="email" name="uemail" id="uemail" required>
+        </div><br>
+        <div>
+            <label for="contact">Enter Your contact:</label>
+            <input type="tel" name="contact" id="contact" pattern="^[0-9]{9,11}$" required>
+        </div><br>
+        <div>
+            <label for="dob">Select DOB:</label>
+            <input type="date" name="dob" id="dob" required>
+        </div><br>
+        <div>
+            <label for="age">Select Age:</label>
+            <input type="number" name="age" id="age" min="18" max="60" required>
+        </div><br>
+        <div>
+            <label for="time">Select Time:</label>
+            <input type="time" name="time" id="time" required>
+        </div><br>
+        <div>
+            <label for="gen">Select Your Gender:</label>
+            <input type="radio" name="gen" value="male" required>Male
+            <input type="radio" name="gen" value="female" required>Female
+        </div><br>
+        <div>
+            <label for="edu">Select Your Education:</label>
+            <input type="checkbox" name="edu" id="edu" value="ssc">SSC
+            <input type="checkbox" name="edu" id="edu" value="hsc">HSC
+            <input type="checkbox" name="edu" id="edu" value="ug">UG
+            <input type="checkbox" name="edu" id="edu" value="pg">PG
+        </div><br>
+        <div>
+            <label for="select">Select Your Course:</label>
+            <select name="course" id="course">
+                <option value="">Select Your Choice</option>
+                <option value="react">React</option>
+                <option value="angular">Angular</option>
+                <option value="HTML CSS">HTML CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                
+            </select>
+        </div><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+
+    </form>
+</center>
+</body>
+</html>

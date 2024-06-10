@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //object data type
+        let person={
+            id:100,
+            name:"Nirmal Raj",
+            contact:8888,
+            single:true,
+            address:{
+                city:"Chennai",
+                pin:600129,
+                state:"Tamil Nadu"
+            },
+            details:function(){
+                return `Id:${this.id} Name:${this.name} Contact:${this.contact} Single:${this.single}`
+            }
+        }
+        document.write(`Id:${person.id} Name:${person.name} Contact:${person.contact} Single:${person.single}<br>`)
+        document.write(`City:${person.address.city} Pin:${person.address.pin} State:${person.address.state}<br>`);
+        document.write(person.details(),"<br>");
+        //how to manipulate object data
+        person.name="Nirmal Raj S";
+        person.contact=101010;
+        document.write(`Id:${person.id} Name:${person.name} Contact:${person.contact} Single:${person.single}<br>`);
+
+        let emp=[
+            {id:1,name:"Nirmal Raj",salary:95000,gender:"male",address:"Chennai"},
+            {id:2,name:"Sandhya",salary:95000,gender:"female",address:"Chennai"},
+            {id:3,name:"Ikfan",salary:95000,gender:"male",address:"Chennai"},
+            {id:4,name:"Samrutha",salary:95000,gender:"female",address:"Chennai"},
+            {id:5,name:"Kamal",salary:95000,gender:"male",address:"Chennai"},
+            {id:6,name:"Malak",salary:95000,gender:"female",address:"Chennai"},
+        ]
+        
+    </script>
+    
+</body>
+</html>

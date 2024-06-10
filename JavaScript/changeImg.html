@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="../assets/Images/ajith.webp" id="img1" alt="gg"><br>
+    <strong id="imgName">Ajith Kumar</strong>
+    <button type="button" id="btn" onclick="changeImage()">Change Image</button>
+    <script>
+        let  url="../assets/Images/ajith.webp";
+        let url1="../assets/Images/ajith.webp";
+        let ajith="ajith";
+        let gg=url1;
+        function changeImage(){
+            if(ajith=="ajith"){
+            document.getElementById("img1").src="../assets/Images/gg.jfif";
+            document.getElementById("imgName").innerHTML="Gangster Ganesh";
+            ajith="gg";
+        }
+        else{
+            document.getElementById("img1").src="../assets/Images/ajith.webp";
+            document.getElementById("imgName").innerHTML="Ajith Kumar";
+            ajith="ajith"
+        }
+        }
+    </script>
+</body>
+</html>

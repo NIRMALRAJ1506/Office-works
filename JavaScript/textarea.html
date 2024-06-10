@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="text">Text
+            <textarea name="text" id="text"></textarea>
+        </label>
+        <button type="button" onclick="copy()">Copy</button>
+        <label for="copytext">Copy Text
+            <textarea name="copytext" id="copytext"></textarea>
+        </label>
+        <script>
+        function copy(){
+            let a=document.getElementById("text").value;
+            document.getElementById("copytext").innerHTML=a;
+        }
+    </script>
+    </form>
+</body>
+</html>

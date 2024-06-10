@@ -1,0 +1,99 @@
+body{
+    background-color: pink;
+    margin-top: 0%;
+}
+span{
+    font-size: 40px;
+    text-shadow: 2px 0px 2px;
+}
+header{
+        position:sticky;
+        top: 0px;
+        z-index:1;
+        margin: 0px;
+    }
+
+
+.container{
+    border: 3px solid red;
+    background-color: aqua;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.dala{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid black;
+    vertical-align: middle;
+}
+.vijay-container{
+    border: 3px solid;
+    height: 300px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 15px;
+    background-color:lightblue;
+}
+.vijay{
+    float: right;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.ajith{
+    float: left;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 200px;
+}
+.dhoni{
+    float: right;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 200px;
+}
+.vk{
+    float: left;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 200px;
+}
+.messi{
+    float: right;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 200px;
+}
+.cr7{
+    float: left;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 200px;
+}
+.cena{
+    float: right;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 200px;
+}
+.rock{
+    float: left;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 200px;
+}
+.eminem{
+        float: right;
+        border: 3px solid;
+        border-radius: 10px;
+        height: 200px;
+}
+.rdj{
+    float: left;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 200px;
+}

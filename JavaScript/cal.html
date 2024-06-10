@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 3px solid red;
+            margin: auto;
+            width: 300px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 6px 5px 3px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">Enter First Number
+            <input type="text" name="fn" id="fn"><br>
+        </label>
+        <label for="">Enter Second Number
+            <input type="text" name="sn" id="sn"><br>
+        </label>
+        <button type="button" onclick="addition()">Add</button>
+        <button type="button" onclick="subtraction()">Sub</button>
+        <button type="button" onclick="multiplication()">Mul</button>
+        <button type="button" onclick="division()">Div</button>
+        <br>
+        <b>Result: <b id="Result"></b></b>
+    </form>
+    <script>
+        function addition(){
+            // window.alert("hi");
+            let num1=document.getElementById("fn").value;
+            let num2=document.getElementById("sn").value;
+            let sum=parseInt(num1)+parseInt(num2);
+            document.getElementById("Result").innerHTML=sum;
+        }
+        function subtraction(){
+            // window.alert("hi");
+            let num1=document.getElementById("fn").value;
+            let num2=document.getElementById("sn").value;
+            let sub=parseInt(num1)-parseInt(num2);
+            document.getElementById("Result").innerHTML=sub;
+        }
+        function multiplication(){
+            // window.alert("hi");
+            let num1=document.getElementById("fn").value;
+            let num2=document.getElementById("sn").value;
+            let mul=parseInt(num1)*parseInt(num2);
+            document.getElementById("Result").innerHTML=mul;
+        }
+        function division(){
+            // window.alert("hi");
+            let num1=document.getElementById("fn").value;
+            let num2=document.getElementById("sn").value;
+            let div=parseInt(num1)/parseInt(num2);
+            document.getElementById("Result").innerHTML=div;
+        }
+        
+    </script>
+</body>
+</html>

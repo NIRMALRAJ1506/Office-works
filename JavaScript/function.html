@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1.simple function
+        function greeting(){
+            return "Good Morning Nanbargaley";
+        }
+        document.write(greeting(),"<br>");
+        let greet=greeting();
+        document.write(greet,"<br>");
+
+        //2.parameterized function
+        function welcome(std1){
+            return "welcome you "+std1;
+        }
+        document.write(welcome('Nirmal'),"<br>");
+        document.write(welcome('Sandhya'),"<br>");
+        document.write(welcome('Sindhuja'),"<br>");
+        document.write(welcome('Rithika'),"<br>");
+        
+        function welcomes(std1,std2,std3){
+            return `welcome you ${std1} ${std2} ${std3} in changepond`;
+        }
+        document.write(welcomes("Nirmal","Sandhya","Sindhuja"),"<br>");
+//3.anonymous funcation:function with no name
+       let add= function (){
+            return 100+200;
+        }
+        document.write(add(),"<br>");
+       let add1= function (num1,num2){
+            return num1+num2;
+        }
+        document.write(add1(200,500),"<br>");
+        
+        //4.arrow function:function with no name and no function keyword is called arrow function with arrow symbol(=>) after paranthesis
+        let sub=()=>{
+            return 500-100;
+        };
+        document.write(sub(),"<br>");
+        // let sub1=(num1,num2)=>{
+        //     return num1-num2;
+        // };
+        let sub1=(num1,num2)=>num1-num2;
+        document.write(sub1(800,200),"<br>");
+        //5.optional parameterized function:when parameter is optional in function it is optional in function it is called optional parameterize function.it always write at last with default value in paranthesis.
+        let fullName=(fname,lname,mname="",address="")=>{
+            return `${fname} ${mname} ${lname} ${address}`;
+        }
+        document.write(fullName("Nirmal Raj","S"),"<br>");
+        document.write(fullName("Nirmal Raj","S","Subbaiyan"),"<br>");
+        document.write(fullName("Nirmal Raj","S","Subbaiyan","Chennai"),"<br>");
+        //6.rest parameterize function:when dont know how many parameters are required in function in that case we use it.In this we use spread operator(...)
+        let emp=(...std)=>{
+            return std;
+        }
+        document.write(emp("Veeraraghavan","Gangster Ganesh","Vinayak mahadev","Aditya Arunachalam","Bhairava","Rocky Bhai","Kokki Kumar","Thotti Jaya"),"<br>")
+    </script>
+</body>
+</html>

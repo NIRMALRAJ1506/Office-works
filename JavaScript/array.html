@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let courses=["React","Angular","Java","Python"];
+        console.log(courses);
+        console.log(`array length:${courses.length}`);
+        console.log(`array size:${courses.length-1}`);
+
+        //how to access array data outside array
+        console.log(courses[1]);
+        //how to manipulate array data
+        courses[2]="Advanced Java"
+        console.log(courses); 
+
+        for(let i=0;i<courses.length;i++){
+            document.write(courses[i],",");
+        }
+        document.write("<br>");
+        //for of: it will reetu0rn array values.
+        for(let course of courses){
+            document.write(course,",");
+        }
+        document.write("<br>");
+        //for in: it will reeturn array index.
+        for(let course of courses){
+            document.write(course,",");
+        }
+        document.write("<br>");
+
+        //1.push():it allows us to insert data at last index of an array.
+        courses.push("Nodejs","Expressjs");
+        document.write(courses,"<br>");
+
+        //2.pop():it is used to remove values from last index of an array, it remove single value at a time.
+        courses.pop();
+        document.write(courses,"<br>");
+        //3.unshift it is use to insert value at first position
+        courses.unshift("html","css");
+        document.write(courses,"<br>")
+
+        //4.shift():it is used to remove elements from the starting index.it remove single value at a time
+        courses.shift();
+        document.write(courses,"<br>")
+
+        //5.splice(starindex,deletecount,datatoinsert):it allows us to add and remove values from middle
+        courses.splice(3,0,"Saas","typescript");//it will add two values from 3rd index
+        document.write(courses,"<br>");
+
+        courses.splice(4,2);//it will remove two values from 4 index
+        document.write(courses,"<br>");
+
+        courses.splice(2,1,"Wordpress","digital marketing");//it removes data from 2nd index and adds two values
+        document.write(courses,"<br>");
+
+        //6.tostring()
+        console.log(courses.toString());
+
+        //7.join(separator):it convert array into string data,it takes one parameter to separate data
+        console.log(courses.join("*"));
+        console.log(courses.join(" "));
+    </script>
+</body>
+</html>

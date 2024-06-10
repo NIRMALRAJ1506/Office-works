@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1.decendent selector */
+        .grandfather p{
+            color: red;
+            font-size: 25px;
+        }
+        .grandfather>p{
+            background-color: aqua;
+            text-align: center;
+            color: green;
+        }
+        .grandfather+p{
+            background-color: brown;
+            color: white;
+            font-size: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .grandfather~p{
+            color: greenyellow;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="grandfather">
+        <p>child-1</p>
+        <p>child-2</p>
+        <p>child-3</p>
+        <p>child-4</p>
+        <p>child-5</p>
+        <p>child-6</p>
+        <div><p>Grandson</p></div>
+        <p>child-7</p>
+    </div>
+    <p>nearest friend</p>
+    <p>outside friend</p>
+    <p>outside friend</p>
+</body>
+</html>

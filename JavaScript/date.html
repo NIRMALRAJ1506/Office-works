@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+    <div id="d4"></div>
+    <div id="d5"></div>
+    <div id="d6"></div>
+    <div id="d7"></div>
+    <div id="d8"></div>
+</body>
+<script>
+    let dateObj=new Date();
+    document.getElementById("d1").innerHTML=dateObj;
+    document.getElementById("d2").innerHTML=dateObj.getFullYear();
+    document.getElementById("d3").innerHTML=dateObj.getHours();
+    document.getElementById("d4").innerHTML=dateObj.getMinutes();
+    document.getElementById("d5").innerHTML=dateObj.getDate();
+    document.getElementById("d6").innerHTML=dateObj.getDay();
+    document.getElementById("d7").innerHTML=dateObj
+    document.getElementById("d8").innerHTML=dateObj
+    document.getElementById("d9").innerHTML=dateObj
+    let today=dateObj.getDay();
+    switch(today){
+        case 0:{
+            document.getElementById("d7").innerHTML="Today is sunday";
+            break;
+        }
+        case 1:{
+            document.getElementById("d7").innerHTML="Today is monday";
+            break;
+        }
+        case 2:{
+            document.getElementById("d7").innerHTML="Today is tuesday";
+            break;
+        }
+        case 3:{
+            document.getElementById("d7").innerHTML="Today is wednesday";
+            break;
+        }
+        case 4:{
+            document.getElementById("d7").innerHTML="Today is thursday";
+            break;
+        }
+        case 5:{
+            document.getElementById("d7").innerHTML="Today is friday";
+            break;
+        }
+        case 6:{
+            document.getElementById("d7").innerHTML="Today is saturday";
+            break;
+        }
+    }
+
+    let date=new Date("2015","02","10","10","55","30")
+    document.getElementById("d8").innerHTML=date;
+
+    function myclock(){
+        let mytime=new Date();
+        document.getElementById("d1").innerHTML=mytime.toLocaleDateString();
+    }
+    setInterval(myclock,1000);
+</script>
+</html>

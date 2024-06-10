@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            font-size: 50px;
+            border: 3px solid red;
+            margin: auto;
+            color: red;
+            text-shadow: 2px 0px 2px;
+            width: 200px;
+        }
+        .parent{
+            text-align: center;
+            font-size: 30px;
+            
+        }
+        .child{
+            display: none;
+        }
+        .parent:hover .child{
+            display: block;
+        }
+        .normalElement{
+            border: 5px solid black;
+            width:100px;
+            padding:5px;
+        }
+        .boxsizing{
+            border: 5px solid black;
+            width:100px;
+            padding:5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Hover on me
+        <p class="child">Welcome You All on Changepond</p>
+    </div>
+    <hr>
+    <div class="normalElement">Hello Friends</div>
+    <div class="boxsizing">Hello Friends</div>
+</body>
+</html>

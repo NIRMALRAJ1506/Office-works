@@ -1,0 +1,34 @@
+.border{
+    border: 3px solid red;
+    height: 400px;
+    width: 800px;
+}
+
+.name1{
+    position: relative;
+    right: 0px;
+    top: -23px;
+}
+
+.name2{
+    position: relative;
+    left: 762px;
+    bottom: 70px;
+}
+
+.name3{
+    position: relative;
+    text-align: center;
+    top: 46px;
+}
+
+.name4{
+    position: relative;
+    top: 212px;
+}
+
+.name5{
+    position: relative;
+    left: 752px;
+    top: 165px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let emp=[
+            {id:1,name:"Nirmal Raj",salary:95000,gender:"male",address:"Chennai"},
+            {id:2,name:"Sandhya",salary:95000,gender:"female",address:"Chennai"},
+            {id:3,name:"Ikfan",salary:95000,gender:"male",address:"Chennai"},
+            {id:4,name:"Samrutha",salary:95000,gender:"female",address:"Chennai"},
+            {id:5,name:"Kamal",salary:95000,gender:"male",address:"Chennai"},
+            {id:6,name:"Malak",salary:95000,gender:"female",address:"Chennai"},
+        ]
+        // for(let i=0;i<emp.length;i++){
+        //     document.write(`Id: ${emp.id} Name:${emp.name} Salary:${emp.salary} gender:${emp.gender} Address:${emp.address}<br>`);
+        // }
+        for(e of emp){
+            document.write(`Id: ${e.id} Name:${e.name} Salary:${e.salary} gender:${e.gender} Address:${e.address}<br>`);
+        }
+    </script>
+</body>
+</html>

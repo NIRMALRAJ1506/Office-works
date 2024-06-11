@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../JavaScript/formvalbefore.js"></script>
     <title>Document</title>
     <style>
         .container{
@@ -49,9 +50,11 @@
     <div class="container">
        <form action="">
         <label for="">Enter User Id</label>
-        <input type="text" name="userid">
+        <input type="text" name="userid" id="userid" onblur="checkData()">
+        <span id="iderror"></span><br>
         <label for="">Enter User Password</label>
-        <input type="text" name="userpassword">
+        <input type="text" name="userpassword" id="userpassword" onblur="checkData()">
+        <span id="passerror"></span>
         <button type="submit">SignIn</button>
        </form>
     </div>

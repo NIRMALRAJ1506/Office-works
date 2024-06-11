@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let data=prompt("Enter your Name","Dala Moss");
+        // document.write(data);
+
+        let msg=prompt("Enter a alphabet");
+        let flag=0;
+        let vowels=["a","e","i","o","u","A","E","I","O","U"];
+        for(let i=0;i<vowels.length;i++){
+            if(msg==vowels[i]){
+                document.write(msg,"is a Vowel");
+                flag=1;
+                break;
+            }
+        }
+        if(flag==0){
+            document.write(msg,"is a Consonant")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formval.css">
+    <script src="./formAftersubmit.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="formval" onsubmit="return checkAll()">
+        <div>
+        <label for="fn"> Enter your First Name</label>
+        <input type="text" name="fn" id="fn"><br>
+    </div><br>
+    <div>
+        <label for="">select Qualification:</label><br>
+        <input type="checkbox" name="edu" value="ssc">SSC
+        <input type="checkbox" name="edu" value="hsc">HSC
+        <input type="checkbox" name="edu" value="ug">UG
+        <input type="checkbox" name="edu" value="pg">PG
+        <input type="checkbox" name="edu" value="master">Master
+    </div>
+            <button type="submit">Submit</button>
+        
+    </form>
+</body>
+</html>

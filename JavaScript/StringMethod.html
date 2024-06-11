@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+    <div id="d4"></div>
+    <div id="d5"></div>
+    <div id="d6"></div>
+    <div id="d7"></div>
+    <div id="d8"></div>
+    <div id="d9"></div>
+    <div id="d10"></div>
+    <div id="d11"></div>
+    <div id="d12"></div>
+    <div id="d13"></div>
+    <div id="d14"></div>
+    <div id="d15"></div>
+    <div id="d16"></div>
+    <div id="d17"></div>
+    <div id="d18"></div>
+    <div id="d19"></div>
+    <div id="d20"></div>
+    <div id="d21"></div>
+    <div id="d22"></div>
+    <div id="d23"></div>
+    <div id="d24"></div>
+    <script>
+        let msg="I welcome you all in Changepond, you all are Changepond developers.";
+        document.getElementById("d1").innerHTML=msg;
+        document.getElementById("d2").innerHTML=msg.toUpperCase();
+        document.getElementById("d3").innerHTML=msg.toLowerCase();
+        document.getElementById("d4").innerHTML=msg.length;
+        //use of indexof method
+        document.getElementById("d5").innerHTML=msg.indexOf("Changepond");
+        document.getElementById("d6").innerHTML=msg.indexOf("Changepond",25);
+        document.getElementById("d7").innerHTML=msg.indexOf("changepond");
+        //use of lastindexof
+        document.getElementById("d8").innerHTML=msg.lastIndexOf("all");
+        document.getElementById("d9").innerHTML=msg.lastIndexOf("all",30);
+        document.getElementById("d10").innerHTML=msg.lastIndexOf("All");
+        //use of sexrch method
+        document.getElementById("d11").innerHTML=msg.search("you");
+        document.getElementById("d12").innerHTML=msg.search("You");
+        //use of slice method
+        document.getElementById("d13").innerHTML=msg.slice(10);
+        document.getElementById("d14").innerHTML=msg.slice(10,20);
+        document.getElementById("d15").innerHTML=msg.slice(-20);
+        document.getElementById("d16").innerHTML=msg.slice(-20,-5);
+        //use of substring method
+        document.getElementById("d17").innerHTML=msg.substring(10);
+        document.getElementById("d18").innerHTML=msg.substring(10,20);
+        //use of substr
+        document.getElementById("d19").innerHTML=msg.substr(5);
+        //use of split
+        console.log(msg);
+        console.log(msg.split(" "));
+        //use of replace
+         document.getElementById("d20").innerHTML=msg.replace("Changepond","Hematite");
+         //use of replaceall
+         document.getElementById("d21").innerHTML=msg.replaceAll("Changepond","Hematite");
+         document.getElementById("d22").innerHTML=msg.replace(/changepond/i,"Hematite");
+         document.getElementById("d23").innerHTML=msg.replace(/changepond/ig,"Hematite");
+
+         //use of charAt
+         document.getElementById("d24").innerHTML=msg.charAt(5);
+    </script>
+</body>
+</html>

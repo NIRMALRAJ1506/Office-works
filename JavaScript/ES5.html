@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let msg="                         hello";
+        document.write(msg);
+        console.log(msg);
+        console.log(msg.trim());
+        console.log(msg.trimStart());
+        console.log(msg.trimEnd());
+        document.write("<br>");
+
+        let courses=["React","Angular","Java","Python","Nodejs"];
+        //1.forEach(): it call another method once for each array.It works only with the array data.
+        courses.forEach((val,index)=>{
+            document.write(val+" ");
+        });
+        document.write("<br>");
+
+        //2.map():it call another method once for every array element and it return new after performing manipulation with array data or value.
+        let num=[1,2,3,5,7,8,9,10,12,14,15,18,20,22,24,25,27,30];
+        document.write(num,"<br>");
+        let mapOut=num.map((val,index)=>{
+            return val*2;
+        });
+        document.write(mapOut,"<br>");
+        //3.filter:it call another method once for each array element and it return array of those element who satisy given condition.
+        let filterOut=num.filter((val,index)=>{
+            return val%2==0;
+        });
+        document.write(filterOut,"<br>");
+        //4.every():it call another method once for each array element and it return true values if all array element
+        let everyOut=num.every((val,index)=>{
+            return val>0;
+        });
+        document.write(everyOut,"<br>");
+        //5.some():it call another method oncce for each array element and it return true value if some of array element satisfy givrn condition.
+        let someOut=num.some((val,index)=>{
+            return val>1;
+        });
+        document.write(someOut,"<br>");
+        //6.reduce/reduceRight: it return array as single value, it takes parameter in it, 1.preValue,2.next value;
+        let reduceOut=num.reduce((prev,next)=>{
+            return prev+next;
+        });
+        document.write(reduceOut,"<br>");
+    </script>
+</body>
+</html>

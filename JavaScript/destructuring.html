@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let states=["Maharashtra","Tamil Nadu","Goa","Kerla"];
+        // let mah=states[0];
+        // let tam=states[1];
+        // let ga=states[2];
+        // let kr=states[3];
+        // document.write(`${mah} ${tam} ${ga} ${kr}`);
+
+        const[mah,tam,ga,kr]=states;
+        document.write(`${mah} ${tam} ${ga} ${kr} <br>`);
+
+
+        let emp={empId:101,empName:"Nirmal",empSalary:95000,empAddress:"Chennai"};
+        // let id=emp.empId;
+        // let name=emp.empName;
+        // let salary=emp.empSalary;
+        // let address=emp.empAddess;
+        // document.write(`${id} ${name} ${salary} ${address}`);
+
+        //destructuring object
+        const{empId,empName,empSalary,empAddress}=emp;
+        document.write(`${empId} ${empName} ${empSalary} ${empAddress} <br>`);
+    </script>
+</body>
+</html>9

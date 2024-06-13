@@ -1,0 +1,15 @@
+<p>databinding works!</p>
+
+<h3>{{myName}}</h3>
+
+<p>{{num1+num2}}</p>
+<hr>
+<img src="https://deepai.org/static/images/cyberpunkdolphin.png" alt="dala">
+<hr>
+<!-- event binding -->
+<button type="button" (click)="greeting()">click on me</button>
+<hr>
+<!-- use of ngModel -->
+ <form action="">
+    <input type="text" name="text1" [(ngModel)]="mydata">{{mydata}}
+ </form>

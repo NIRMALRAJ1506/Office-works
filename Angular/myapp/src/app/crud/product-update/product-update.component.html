@@ -1,0 +1,26 @@
+<p>product-update works!</p>
+<form [formGroup]="prodData" (ngSubmit)="updateData()">
+    <label class="form-label">Enter Product Name:</label>
+    <input type="text" name="pname" [(ngModel)]="name" formControlName="pname" class="form-control">
+    <div class="alert alert-danger" *ngIf="prodData.get('pname').touched && prodData.get('pname').invalid">
+     <div *ngIf="prodData.get('pname').errors.required">This field is required</div>
+     <div *ngIf="prodData.get('pname').errors.pattern">pname must contain only character mi-3 and max-20</div>
+    </div>
+ 
+    <label class="form-label">Enter Price:</label>
+    <input type="text" name="price" [(ngModel)]="price" formControlName="price" class="form-control">
+    <div class="alert alert-danger" *ngIf="prodData.get('price').touched && prodData.get('price').invalid">
+     <div *ngIf="prodData.get('price').errors.required">This field is required</div>
+     <div *ngIf="prodData.get('price').errors.pattern">price should contain only numbers</div>
+    </div>
+ 
+    <label class="form-label">Enter Company:</label>
+    <input type="text" name="company" [(ngModel)]="company" formControlName="company" class="form-control">
+    <div class="alert alert-danger" *ngIf="prodData.get('company').touched && prodData.get('company').invalid">
+     <div *ngIf="prodData.get('company').errors.required">This field is required</div>
+     <div *ngIf="prodData.get('company').errors.pattern">company name must contain only character mi-3 and max-20</div>
+    </div>
+
+    <button typr="button" >Update</button>
+ </form>
+ 

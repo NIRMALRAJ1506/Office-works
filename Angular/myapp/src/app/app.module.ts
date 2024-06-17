@@ -21,6 +21,15 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BreakFastComponent } from './components/break-fast/break-fast.component';
 import {HttpClientModule } from '@angular/common/http';
 import { ProductDashboardComponent } from './crud/product-dashboard/product-dashboard.component';
+import { ProductAddComponent } from './crud/product-add/product-add.component';
+import { ProductUpdateComponent } from './crud/product-update/product-update.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { AngularmatComponent } from './components/angularmat/angularmat.component';
+import{MatButtonModule} from'@angular/material/button';
+import{MatSliderModule} from '@angular/material/slider';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatIconModule} from '@angular/material/icon';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -40,17 +49,26 @@ import { ProductDashboardComponent } from './crud/product-dashboard/product-dash
     NavComponent,
     FooterComponent,
     BreakFastComponent,
-    ProductDashboardComponent
+    ProductDashboardComponent,
+    ProductAddComponent,
+    ProductUpdateComponent,
+    AngularmatComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatButtonModule,
+    MatSliderModule,
+    MatSlideToggleModule,
+    MatIconModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })

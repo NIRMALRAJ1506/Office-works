@@ -1,0 +1,26 @@
+<p>product-add works!</p>
+<form [formGroup]="proData" (ngSubmit)="getData()">
+    <label class="form-label">Enter Product Name:</label>
+    <input type="text" name="pname" formControlName="pname" class="form-control">
+    <div class="alert alert-danger" *ngIf="proData.get('pname').touched && proData.get('pname').invalid">
+     <div *ngIf="proData.get('pname').errors.required">This field is required</div>
+     <div *ngIf="proData.get('pname').errors.pattern">pname must contain only character mi-3 and max-20</div>
+    </div>
+ 
+    <label class="form-label">Enter Price:</label>
+    <input type="text" name="price" formControlName="price" class="form-control">
+    <div class="alert alert-danger" *ngIf="proData.get('price').touched && proData.get('price').invalid">
+     <div *ngIf="proData.get('price').errors.required">This field is required</div>
+     <div *ngIf="proData.get('price').errors.pattern">price should contain only numbers</div>
+    </div>
+ 
+    <label class="form-label">Enter Company:</label>
+    <input type="text" name="company" formControlName="company" class="form-control">
+    <div class="alert alert-danger" *ngIf="proData.get('company').touched && proData.get('company').invalid">
+     <div *ngIf="proData.get('company').errors.required">This field is required</div>
+     <div *ngIf="proData.get('company').errors.pattern">company name must contain only character mi-3 and max-20</div>
+    </div>
+
+    <button typr="button" (click)="addData()">Add</button>
+ </form>
+ 

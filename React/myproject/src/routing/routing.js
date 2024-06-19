@@ -7,6 +7,7 @@ import { ReactHooksComp } from "../Hooks/ReactHooksComp";
 import UseStateHookComp from "../Hooks/UseStateHookComp";
 import UseEffectHookComp from "../Hooks/UseEffectHookComp";
 import MaindashboardComp from "../Layout/MaindashboardComp";
+import Dashboard from "../components/DashboardComp";
 const router=createBrowserRouter([
     {path:"maindash",element:<MaindashboardComp></MaindashboardComp>,children:[
         {path:"",element:<SliderComp></SliderComp>},
@@ -26,7 +27,7 @@ const router=createBrowserRouter([
     ]},
     ]},
     //default routing
-    
+    {path:"dashboard",element:<Dashboard></Dashboard>},
 
     {path:"*",element:<PageNotFound></PageNotFound>}
 ])

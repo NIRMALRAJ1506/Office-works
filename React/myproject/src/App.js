@@ -4,6 +4,7 @@ import ConditionRencomp from './Task/ConditionRenComp';
 import SetStateComp from './Task/SetStateComp';
 import ClassComp from './components/ClassComp';
 import ClickCounterComp from './components/ClickCounterComp';
+import Dashboard from './components/DashboardComp';
 import FunctionComp from './components/FunctionComp';
 import HoverComp from './components/HoverComp';
 import MethodEventComp from './components/MethodEventComp';
@@ -13,6 +14,7 @@ import MycssComp from './components/MycssComp';
 import { PageNotFound } from './components/PageNotFound';
 import ParentComp from './components/ParentComp';
 import { SliderComp } from './components/SliderComp';
+
 
 
 
@@ -48,8 +50,9 @@ function App() {
         {/* <ClickCounterComp></ClickCounterComp>
         <hr/>
         <HoverComp></HoverComp> */}
-        <SliderComp></SliderComp>
-        <PageNotFound></PageNotFound>
+        {/* <SliderComp></SliderComp>
+        <PageNotFound></PageNotFound> */}
+        <Dashboard></Dashboard>
     </div>
   );
 }

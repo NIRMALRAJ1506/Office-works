@@ -10,8 +10,9 @@ import dhoni from '../Images/dhoni.jpg';
 import vk from '../Images/vk.webp';
 import rock from '../Images/rock.jpg';
 import vdo from '../Images/SampleVideo_1280x720_1mb.mp4'
+import gg from '../Images/gg.jfif'
 
 const staticData={
-    ado,ajith,vijay,cena,rdj,cr7,messi,eminem,dhoni,vk,rock,vdo
+    ado,ajith,vijay,cena,rdj,cr7,messi,eminem,dhoni,vk,rock,vdo,gg
 }
 export default staticData;

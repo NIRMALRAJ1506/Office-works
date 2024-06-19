@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import vijay from '../Shared/Images/vijay.webp';
 import ajith from '../Shared/Images/ajith.webp';
 import staticData from '../Shared/Constant/Constantdata';
@@ -14,7 +14,7 @@ export class MyImagesComp extends Component {
     
     render() {
         return (
-            <div>
+            <Fragment>
                <h2>This is My Images Component</h2> 
                <img src={vijay} alt="Naalaya Mudhalvar" height="200px" width="200px"/>
                <img src={ajith} alt="Dala Moss" height="200px" width="200px"/>
@@ -26,7 +26,7 @@ export class MyImagesComp extends Component {
                <hr/>
                <audio src={staticData.ado} alt="audio" controls/>
 
-            </div>
+            </Fragment>
         )
     }
 }

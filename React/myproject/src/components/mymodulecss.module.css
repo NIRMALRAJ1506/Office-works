@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid red;
+    transition: transform 2s;
+}
+.box:hover{
+    border:2px solid blue;
+    /* transform:rotateY(320deg); */
+    transform: rotateX(320deg);
+}

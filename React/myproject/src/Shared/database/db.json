@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "pname": "Laptopsdds",
+      "price": 55000,
+      "company": "Hp"
+    },
+    {
+      "id": "2",
+      "pname": "Keyboardd",
+      "price": 500,
+      "company": "Intel"
+    },
+    {
+      "id": "3",
+      "pname": "Mouse",
+      "price": 300,
+      "company": "Iball"
+    },
+    {
+      "id": "4",
+      "pname": "Adaptor",
+      "price": 3000,
+      "company": "Dell"
+    },
+    {
+      "id": "5",
+      "pname": "USB",
+      "price": 1000,
+      "company": "Sony"
+    },
+    {
+      "id": "6",
+      "pname": "Card Reader",
+      "price": 5000,
+      "company": "Dominc and cardreaders"
+    },
+    {
+      "id": "7547",
+      "pname": "Mobile",
+      "price": "19000",
+      "company": "One Plus"
+    },
+    {
+      "id": "d1f0",
+      "pname": "Headphones",
+      "price": "700",
+      "company": "Boat"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userid": "admin@gmail.com",
+      "userPass": "lol"
+    },
+    {
+      "id": "2",
+      "userid": "nirmal@gmail.com",
+      "userPass": "lol"
+    },
+    {
+      "id": "3",
+      "userid": "sandhya@gmail.com",
+      "userPass": "lol"
+    }
+  ]
+}

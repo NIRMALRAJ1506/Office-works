@@ -52,7 +52,7 @@ function App() {
         <HoverComp></HoverComp> */}
         {/* <SliderComp></SliderComp>
         <PageNotFound></PageNotFound> */}
-        <Dashboard></Dashboard>
+        {/* <Dashboard></Dashboard> */}
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet, useNavigate } from 'react-router-dom'
 import MyImagesComp from '../components/MyImagesComp'
 import NavComp from './NavComp'
 import FooterComp from './FooterComp'
 const MaindashboardComp = () => {
+    
     return (
         <Fragment className="container">
             {/* <h2>This is MainDashboard Component</h2> */}
@@ -13,6 +14,7 @@ const MaindashboardComp = () => {
                 </div>
                 <div className='card-header border-primary'>card-nav
                     <Outlet></Outlet>
+                    <Link to="">Sign Out</Link>
                 </div>
                 <div className='card-header border-primary'>
                     <FooterComp></FooterComp>

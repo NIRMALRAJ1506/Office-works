@@ -1,0 +1,145 @@
+ Task table:
+ create table task(id int primary key,title varchar(255) unique not null,start_date Date,due_date Date);
+
+
+CheckList table:
+create table checklist(
+id int,
+task_id int,
+title varchar(255) not null,
+is_completed boolean not null Default False,
+primary key(id,task_id),
+foreign key(task_id)
+references task(id)
+on update restrict
+on delete cascade
+);
+
+create table subscribers(
+email varchar(300) not null unique);
+
+ALTER:
+alter table subscribers
+add id int auto_increment primary key;
+
+alter table subscribers
+add phone int; 
+
+alter table subscribers
+drop column phone; 
+
+alter table subscribers
+rename column id to s_id;
+
+Rename Table:
+rename table subscribers to sub;
+
+Drop Table:
+drop table sub;
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Assignments:
+1.create table movies(
+movie_id int,
+movie_name varchar(255),
+movie_type varchar(255),
+movie_rating int,
+primary key(movie_id,movie_name)
+);
+
+2.create table company(
+company_id int primary key,
+trade varchar(255) not null,
+number_of_employees int not null Default 0
+);
+
+3.create table job_offer(
+offer_id int primary key,
+offer_title varchar(255) default '',
+offer_min_salary int not null default 5000,
+offer_max_salary int,
+company_id int,
+foreign key(company_id)
+references company(company_id)
+);
+
+
+4.rename table movies to movies_renamed;
+
+5.alter table movies_renamed
+add movie_director varchar(255);
+
+6.alter table movies_renamed
+add ID int first;
+
+7.alter table movies_renamed
+add movie_description varchar(255) after movie_name;
+
+8.alter table movies_renamed
+drop column movie_rating;
+ alter table movies_renamed
+ add movie_rating int after movie_type
+ 
+9.alter table movies_renamed
+drop column movie_director;
+ 
+10.alter table movies_renamed
+drop primary key;
+
+
+11.alter table movies_renamed
+drop column movie_id;
+alter table movies_renamed
+add movie_id int primary key after ID;
+
+or
+
+add primary key(movie_id,movie_name);
+
+12.already done in job_offer table
+create table job_offer(
+offer_id int primary key,
+offer_title varchar(255) default '',
+offer_min_salary int not null default 5000,
+offer_max_salary int,
+company_id int,
+foreign key(company_id)
+references company(company_id)
+);
+-------------------------------------------------------------------------------------------------------------------------
+create table task(
+task_id int auto_increment primary key,
+title varchar(255) not null,
+start_date Date,
+due_date Date,
+priority tinyint not null default 3,
+description text
+);
+
+insert into task (title,priority) values
+('Learn MySQL Insert Statement',1);
+
+insert into tasks values(2,'Insert Statement without Column','2024-06-01','2024-06-02',2,'The sequence should be maintained whenever we are using the inserty \n without specifying column names');
+
+insert into task (title,start_date,due_date)
+values
+("Insert with default value of priority",
+'2024-06-24','2024-06-25');
+
+insert into task (title,start_date,due_date)
+values
+("Insert with default value of priority",
+current_date(),current_date()+1);
+
+insert into task (title,start_date,due_date)
+values
+("Insert with default value of priority",
+current_date()-20,current_date()+1);
+
+insert into task (title,priority)
+values
+('do prestudy',1),
+('do requirement gathering',1),
+('prepare srs',2),
+('signoff requirements',3);

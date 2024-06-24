@@ -31,6 +31,7 @@ const nav=useNavigate();
            const data= usersData.filter((val)=>{return val.userid===email && val.userPass===password})
             if(data.length>0){
                 nav("/maindash");
+                sessionStorage.setItem("user",email)
             }
             else{
                 window.alert("wrong credentials inserted");

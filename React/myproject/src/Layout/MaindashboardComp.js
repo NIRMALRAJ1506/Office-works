@@ -11,7 +11,7 @@ const MaindashboardComp = () => {
             <div className='card border-primary'>
                 <div className='card-header border-primary'>
                     <NavComp></NavComp>
-                    <Link to="/" class="btn btn-danger  float-end">Sign Out</Link>
+                    <Link to="/" className="btn btn-danger  float-end">Sign Out</Link>
                 </div>
                 <div className='card-header border-primary'>card-nav
                     <Outlet></Outlet>

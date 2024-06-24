@@ -14,10 +14,11 @@ import ProductDashboardComp from "../CRUD/ProductDashboardComp";
 import ProductAddComp from "../CRUD/ProductAddComp";
 import ProductUpdateComp from "../CRUD/ProductUpdateComp";
 import LoginComp from "../Layout/LoginComp";
+import ProtectedRouting from "./ProtectedRouting";
 
 const router=createBrowserRouter([
     {path:"",element:<LoginComp></LoginComp>},
-    {path:"maindash",element:<MaindashboardComp></MaindashboardComp>,children:[
+    {path:"maindash",element:<ProtectedRouting Component={MaindashboardComp}/>,children:[
         {path:"",element:<SliderComp></SliderComp>},
         {path:"productadd",element:<ProductAddComp></ProductAddComp>},
 

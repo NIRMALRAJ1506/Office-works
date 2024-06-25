@@ -1,0 +1,59 @@
+1.select department_id,sum(salary) totalSalary from employee
+group by department_id;
+
+2.select department_id,sum(salary) totalSalary from employee
+group by department_id
+order by sum(salary) desc; 
+
+3.select max(salary) maxSalary from employee
+group by department_id
+order by max(salary) asc; 
+
+4.select min(salary) maxSalary from employee
+group by department_id
+order by min(salary) asc; 
+
+5.select department_id,sum(salary) totalSalary from employee
+group by department_id
+having sum(salary)>8000000
+order by sum(salary) desc; 
+
+6.select first_name,last_name,job_id,salary from employee
+where first_name like 'S%';
+
+7.select employee_id,first_name,last_name,max(salary) maxSalary from employee
+group by employee_id
+order by max(salary) desc limit 1;
+
+8.select employee_id,first_name,last_name,max(salary) maxSalary from employee
+group by employee_id
+order by max(salary) desc limit 1,1;
+
+9.select count(employee_id),year(hire_date) from employee
+group by year(hire_date)
+order by year(hire_date);
+
+10.select * from employee 
+where first_name like '%an%';
+
+11.select * from employee
+where year(hire_date)=1994 and month(hire_date)=8;
+
+12.select * from employee
+group by (employee_id)
+order by min(salary) limit 5;
+
+13.select * from employee
+where
+year(hire_date) between 1980 and 1989;
+
+14.select * from employee
+where
+day(hire_date)>15;
+
+15.select count(*) from employee
+where 
+commission_pct is null;
+
+16.select sum(salary) totalSalary+ifnull(commission_pct) from employee; 
+

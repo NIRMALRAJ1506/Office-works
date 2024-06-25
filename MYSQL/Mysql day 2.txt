@@ -1,0 +1,163 @@
+Know the structure of the table:
+ desc employees;
+ 
+ display all the data in the table:
+ select * from employees;
+ 
+ Display only firstname and lastname of employees:
+ select firstname,lastname from employees;
+ 
+ Display fullname for the emaployee:
+ select concat(firstname," ",lastname) from employees;
+ 
+  Display fullname for the emaployee with alias name:
+ select concat(firstname," ",lastname) as fullname from employees;
+ 
+ Display current date and time:
+ select now();
+ select now() "datetime";
+ 
+ Select Current Date:
+  select current_Date();
+   select current_Date() date;
+   
+ display current logged in user:
+ select current_user();
+ 
+ Displaying the data in ascending order of cities:
+ select city,officecode,phone from offices order by city asc;
+ 
+  Displaying the data in descending order of cities:
+ select city,officecode,phone from offices order by city desc;
+ 
+ Display first 10 rows of orderdetails table:
+ select ordernumber,quantityordered,priceeach from orderdetails limit 10;
+ 
+ Display of Total Price:
+ select ordernumber,quantityordered,priceeach,
+ priceeach * quantityordered "totalprice"
+ from orderdetails limit 10;
+ 
+ 
+ Display of Total Price in ascending order:
+ select ordernumber,quantityordered,priceeach,
+ priceeach * quantityordered "totalprice"
+ from orderdetails 
+ order by priceeach * quantityordered asc
+ limit 10;
+ 
+ Display of Total Price in descending order:
+ select ordernumber,quantityordered,priceeach,
+ priceeach * quantityordered "totalprice"
+ from orderdetails 
+ order by priceeach * quantityordered desc
+ limit 10;
+ 
+ Display ordered deatils by ascending order of quantityordered: 
+ select * from orderdetails order by quantityordered limit 10;
+ 
+ Distinct data:
+ select distinct status from orders;
+ 
+ select ordernumber,status from orders 
+ order by status;
+ 
+ select ordernumber,status from orders 
+ order by field(
+ status,
+ 'In Process',
+ 'On Hold',
+ 'Cancelled',
+ 'Resolved',
+ 'Disputed',
+ 'Shipped'
+ )
+ limit 20;
+ 
+ select firstname from employees order by reportsto;
+ 
+select ordernumber,orderdate,status from orders where status='In Process' order by orderdate desc;
+
+displaying all the emaployees who has job title sales rep  
+select firstname,lastname,jobtitle from employees where jobtitle = 'Sales Rep';
+
+display all emaployees who has job title as vp sales and president:
+select firstname,lastname,jobtitle
+from employees
+where jobtitle in ('President','VP Sales')
+
+select firstname,lastname,jobtitle
+from employees
+where jobtitle in ('President','VP Sales','Sales Rep');
+
+select firstname,lastname,jobtitle,reportsto
+from employees
+where jobtitle in ('President','VP Sales','Sales Rep')
+and reportsto>=1002;
+
+select firstname,lastname,jobtitle,reportsto
+from employees
+where jobtitle in ('President','VP Sales','Sales Rep')
+and (reportsto !=1143 or reportsto is null);
+
+
+
+
+
+
+insert  into employees(employeeNumber,lastName,firstName,extension,email,officeCode,reportsTo,jobTitle) values 
+(1799,'Loui','Kato','x5808','katoL@classicmodelcars.com','6',1088,'Founder');
+
+
+Display productnames starts with A:
+ select distinct productname from products where productname like 'A%';
+
+Display productnames starts with the word America:
+ select distinct productname from products where productname like 'America%';
+ 
+ select firstname,lastname
+ from employees
+ where firstname like 'G%';
+ 
+ select firstname,lastname from employees
+    -> where firstname like '__r%';
+ select firstname,lastname from employees
+    -> where firstname like '__r_r%';
+
+
+select ordernumber,orderdate from orders
+where
+orderdate>='2003-01-01'
+and 
+orderdate<='2003-03-04';
+
+select ordernumber,orderdate from orders
+where
+orderdate
+between '2003-01-01' and '2003-04-03'
+
+select productname,buyprice from products
+where
+buyprice between 80 and 100; 
+
+selct count(*) from customers;
+
+select productcode,
+min(quantityordered),
+max(quantityordered),
+avg(quantityordered),
+count(productcode)
+from orderdetails
+group by productcode
+limit 20;
+
+select productcode,
+min(quantityordered),
+max(quantityordered),
+avg(quantityordered),
+count(productcode)
+from orderdetails
+group by productcode,priceeach
+having count(productcode)>4
+order by productcode
+limit 20;

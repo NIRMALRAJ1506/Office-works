@@ -1,0 +1,21 @@
+1.select concat(e.first_name," ",e.last_name) EmployeeName,e.salary,
+   concat(m.first_name," ",m.last_name)Manager,m.salary 
+   from employee e left join employee m 
+   on e.manager_id = m.employee_id order by manager;
+
+2. select concat(m.first_name," ",m.last_name)Manager,
+      count(e.first_name)
+      from employee e inner join employee m 
+      on e.manager_id = m.employee_id 
+      group by Manager order by manager desc;
+
+3.select department_id,department_name,count(first_name) from departments left join employee using(department_id) group by department_id;
+
+4.select concat(first_name," ",last_name)Employee,salary from employee where salary>(select avg(salary) from employee);
+
+5.select department_id,department_name,max(salary) from departments left join employee using(department_id) group by department_id order by max(salary); desc;
+
+6.select concat(e.first_name," ",e.last_name) EmployeeName,
+   concat(m.first_name," ",m.last_name)Manager,d.department_name 
+   from employee e left join employee m 
+   on e.manager_id = m.employee_id left join departments d on e.department_id=d.department_id order by d.department_name;

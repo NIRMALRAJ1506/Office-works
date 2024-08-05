@@ -37,9 +37,9 @@ def delete_menu(menu):
     
 def main():    
     veg_starter={
-        "food1":"paneer 65",
-        "food2":"chilly paneer",
-        "food3":"veg crispy"
+        "food1": ["paneer 65", "paneer tikka", "paneer chilli", "paneer pakora", "paneer satay"],
+        "food2": ["chilly paneer", "paneer manchurian", "paneer butter masala", "paneer tikka masala", "paneer kofta"],
+        "food3": ["veg crispy", "spring rolls", "veg pakora", "veg manchurian", "veg cutlet"]
         }
     print("1.Display Mwnu\n2.Add menu\n3.Update menu\n4.delete menu")
     print('Enter The Options from 1 to 4')

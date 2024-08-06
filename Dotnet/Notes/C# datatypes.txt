@@ -1,0 +1,15 @@
+cls,cts
+sbyte
+byte 
+short 
+ushort
+int32
+uint32
+int64
+uint64
+single
+double
+decimal
+char
+string
+boolean

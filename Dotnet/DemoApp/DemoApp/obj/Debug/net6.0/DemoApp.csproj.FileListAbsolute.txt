@@ -1,0 +1,14 @@
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\bin\Debug\net6.0\DemoApp.exe
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\bin\Debug\net6.0\DemoApp.deps.json
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\bin\Debug\net6.0\DemoApp.runtimeconfig.json
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\bin\Debug\net6.0\DemoApp.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\bin\Debug\net6.0\DemoApp.pdb
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\DemoApp.AssemblyInfoInputs.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\DemoApp.AssemblyInfo.cs
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\DemoApp.csproj.CoreCompileInputs.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\DemoApp.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\refint\DemoApp.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\DemoApp.pdb
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\DemoApp.genruntimeconfig.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\DemoApp\DemoApp\obj\Debug\net6.0\ref\DemoApp.dll

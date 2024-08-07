@@ -1,0 +1,14 @@
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\bin\Debug\net6.0\oopsprogramming.exe
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\bin\Debug\net6.0\oopsprogramming.deps.json
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\bin\Debug\net6.0\oopsprogramming.runtimeconfig.json
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\bin\Debug\net6.0\oopsprogramming.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\bin\Debug\net6.0\oopsprogramming.pdb
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\oopsprogramming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\oopsprogramming.AssemblyInfoInputs.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\oopsprogramming.AssemblyInfo.cs
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\oopsprogramming.csproj.CoreCompileInputs.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\oopsprogramming.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\refint\oopsprogramming.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\oopsprogramming.pdb
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\oopsprogramming.genruntimeconfig.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\oopsprogramming\oopsprogramming\obj\Debug\net6.0\ref\oopsprogramming.dll

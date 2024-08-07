@@ -1,0 +1,11 @@
+constant : 
+* declared with const keyword
+* can be created in a method or as a class member
+* should be initilized along with its declaration
+* useful to initilize a fixed value only .... eg: PI,E value
+
+Readonly :
+* Declared with readonly keyword
+* can be created as class member
+* should be initilized either along with its declaration or in the constructor
+* useful to initilize fixed value or result of a calculation, majorly used in getter methods of class

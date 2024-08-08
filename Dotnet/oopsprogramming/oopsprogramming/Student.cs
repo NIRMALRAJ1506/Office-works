@@ -11,7 +11,22 @@ namespace oopsprogramming
         public int studentId;
         public string studentname;
         public int marks;
-
+        private int _age;
         public static string collegename;
+
+        public int Age
+        {
+            get
+            {
+                return _age;
+            }
+            set
+            {
+                if(value>=18 && value <= 60)
+                {
+                    _age = value;
+                }
+            }
+        }
     }
 }

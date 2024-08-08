@@ -1,4 +1,6 @@
-﻿namespace oopsprogramming
+﻿using System.Net.Http.Headers;
+
+namespace oopsprogramming
 {
     class Program
     {
@@ -23,16 +25,16 @@
         private static void Main(string[] args)
         {
 
-            Mathoperations m1;
-            Console.WriteLine("Enter the 1st Number:");
-            int num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the 2nd Number:");
-            int num2 = int.Parse(Console.ReadLine());
-            m1 = new Mathoperations(num1, num2);
-            m1.Displayoperations();
-            //User u1;
-            //for(int i=0;i<3;i++)
-            //{
+            //Mathoperations m1;
+            //Console.WriteLine("Enter the 1st Number:");
+            //int num1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the 2nd Number:");
+            //int num2 = int.Parse(Console.ReadLine());
+            //m1 = new Mathoperations(num1, num2);
+            //m1.Displayoperations();
+            //User u1,u2,u3,u4;
+            ////for (int i = 0; i < 3; i++)
+            ////{
             //    Console.WriteLine("Enter the Username:");
             //    string uname = Console.ReadLine();
             //    Console.WriteLine("Enter the Password:");
@@ -40,8 +42,38 @@
             //    u1 = new User(uname, upass);
             //    string result = u1.CheckLogin();
             //    Console.WriteLine(result);
+            //u2 = new User("Sandhya", "Nirmal Raj", "Guest User");
+            //u2.getDetails();
+            //result = u2.CheckLogin();
+            //Console.WriteLine(result);
+
+            //u3 = new User("Ikfan", "ik", "Guest User", "Chennai");
+            //u3.getDetails();
+            //result = u3.CheckLogin();
+            //Console.WriteLine(result);
+
+            //u4 = new User("Nirmal", "Raj", "I am Homelander", "chennai", false);
+
+            //u4.getDetails();
+            //result = u4.CheckLogin();
+            //Console.WriteLine(result);
+
             //}
 
+            Student s1, s2;
+            s1=new Student() { studentId= 1,studentname="Nirmal",marks=100 };
+            s1.Age = 25;
+
+            s2 = new Student() { studentId = 2, studentname = "Raj", marks = 90 };
+            Console.WriteLine("Student: "+s1.studentId);
+            Console.WriteLine("Name: "+s1.studentname);
+            Console.WriteLine("Marks: "+s1.marks);
+            Console.WriteLine("Age: "+s1.Age);
+
+            Console.WriteLine("Student: " + s2.studentId);
+            Console.WriteLine("Name: " + s2.studentname);
+            Console.WriteLine("Marks: " + s2.marks);
+            Console.WriteLine("Age: " + s2.Age);
             //Age a = new Age(1990);
             //a.getAge();
             //Student s1, s2;

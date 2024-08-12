@@ -6,24 +6,15 @@ using System.Threading.Tasks;
 
 namespace OopsAdvanceDemo
 {
-    internal class Person
+    abstract class Person
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string Gender { get; set; }
+        public string? firstName;
+        public string? lastName;
+        public string? Gender;
 
-        public Person(string fname,string lname,string gen)
-        {
-            firstName = fname;
-            lastName = lname;
-            Gender = gen;
-        }
 
-        public void getDetails()
-        {
-            Console.WriteLine("First Name: "+this.firstName);
-            Console.WriteLine("Last Name: "+this.lastName);
-            Console.WriteLine("Gender: "+this.Gender);
-        }
+
+        public abstract string getDetails();
+        
     }
 }

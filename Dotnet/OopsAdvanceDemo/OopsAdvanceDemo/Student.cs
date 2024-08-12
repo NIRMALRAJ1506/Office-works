@@ -11,16 +11,11 @@ namespace OopsAdvanceDemo
         public int studentId { get; set; }
         public int Marks { get; set; }
 
-        public Student(string firstName,string lastName,string Gender,int studentId,int Marks):base( firstName, lastName, Gender)
+        public override string getDetails()
         {
-            this.studentId = studentId;
-            this.Marks = Marks;
+            return "FirstName: " + firstName + "\n" + "LastName: " + lastName + "\n" + "Gender: " + Gender+"\n"
+                +"Student ID: "+this.studentId+"\n"+"Student Mark: "+this.Marks;
         }
-        public void DisplayStudentDetails()
-        {
-            base.getDetails();
-            Console.WriteLine("Student Id: "+this.studentId);
-            Console.WriteLine("Student Marks: "+this.Marks);
-        }
+        
     }
 }

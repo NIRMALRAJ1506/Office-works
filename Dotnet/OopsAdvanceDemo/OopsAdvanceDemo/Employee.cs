@@ -5,16 +5,10 @@
        public int empId { get; set; }
        public int salary { get; set; }
 
-        public Employee(string firstName, string lastName, string Gender, int empId, int salary) : base(firstName, lastName, Gender)
+        public override string getDetails()
         {
-            this.empId = empId;
-            this.salary = salary;
-        }
-        public void DisplayEmployeeDetails()
-        {
-            base.getDetails();
-            Console.WriteLine("Employee Id: " + this.empId);
-            Console.WriteLine("Employee Salary: " + this.salary);
+            return "FirstName: " + firstName + "\n" + "LastName: " + lastName + "\n" + "Gender: " + Gender + "\n"
+                + "Student ID: " + this.empId + "\n" + "Student Mark: " + this.salary;
         }
     }
 }

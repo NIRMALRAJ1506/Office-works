@@ -1,0 +1,14 @@
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\bin\Debug\net6.0\LINQapp.exe
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\bin\Debug\net6.0\LINQapp.deps.json
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\bin\Debug\net6.0\LINQapp.runtimeconfig.json
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\bin\Debug\net6.0\LINQapp.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\bin\Debug\net6.0\LINQapp.pdb
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\LINQapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\LINQapp.AssemblyInfoInputs.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\LINQapp.AssemblyInfo.cs
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\LINQapp.csproj.CoreCompileInputs.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\LINQapp.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\refint\LINQapp.dll
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\LINQapp.pdb
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\LINQapp.genruntimeconfig.cache
+C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\LINQapp\LINQapp\obj\Debug\net6.0\ref\LINQapp.dll

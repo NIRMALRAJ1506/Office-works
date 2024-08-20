@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model Person
+@{
+    ViewData["Title"] = "Person Information";
+}
+<table align="center" width="70%">
+    <tr>
+        <th style="background:red;color:white;column-span:2">Person Details</th>
+    </tr>
+    <tr>
+        <th>Full Name</th>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <th>Basic Salary</th>
+        <td>@Model.Basic_Salary</td>
+    </tr>
+    <tr>
+        <th>Age</th>
+        <td>@Model.Age</td>
+    </tr>
+</table>

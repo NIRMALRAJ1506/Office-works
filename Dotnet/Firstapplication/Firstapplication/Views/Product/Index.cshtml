@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Product
+@{
+    ViewData["Title"] = "Product Details";
+}
+<table align="center" style="border:solid 1px;">
+    <h1 style="text-align:center">Person Details</h1>
+    <thead style="background:black; color:white">
+        <tr>
+            <th style="border:solid 1px;">Product Id</th>
+            <th style="border:solid 1px;">Product Name</th>
+            <th style="border:solid 1px;">Product Price</th>
+            <th style="border:solid 1px;">Product Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border:solid 1px;">@Model.Product_Id</td>
+            <td style="border:solid 1px;">@Model.Product_Name</td>
+            <td style="border:solid 1px;">@Model.Product_Price</td>
+            <td style="border:solid 1px;">@Model.Product_Description</td>
+        </tr>
+    </tbody>
+</table>

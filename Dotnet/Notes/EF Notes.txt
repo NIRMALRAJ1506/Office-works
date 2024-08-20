@@ -1,0 +1,27 @@
+Delegates:
+Delegate is a reference variable that contains reference of one or more methods that have same signature.
+
+Single cast delegates:Contains refrence of only one methods
+Multi cast delegates:Contains reference of multiple methods
+
+
+Events:
+Ther are used to implement the publisher - subscriber model publisher is a class that contains an event also
+raises event
+subscriber is a class that subscribe to the event in the publisher class
+
+
+Lambda Expression:
+Lambda Expression are used to quickly cr
+
+
+
+EF Core:
+Entity Framework Core it is an object relational mapping for performing database operations.
+It supports LINQ,tracking,updates and schema migrations.
+
+ADO.net is used to perform database operations earlier before EF Core. It used to take more time to build the applications.
+
+EF Core is layer built on top of ADO.net and provides us prebuilt functions for performing various operations
+
+EF Core is open source,cross-platform,lightweight,extensible and very powerful in nature

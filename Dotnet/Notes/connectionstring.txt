@@ -1,0 +1,8 @@
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Company;Integrated Security=True;
+Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+
+dotnet ef dbcontext scaffold "server=(localdb)\MSSQLLocalDB;Database=Company;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+ dotnet ef migrations add Migration1 -> to add migrations
+ dotnet ef database update -> to update database

@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\apiconsume\\apiconsume\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|solutionrelative:apiconsume\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\apiconsume\\apiconsume\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|solutionrelative:apiconsume\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\apiconsume\\apiconsume\\views\\home\\getreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|solutionrelative:apiconsume\\views\\home\\getreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\apiconsume\\apiconsume\\views\\home\\updatereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|solutionrelative:apiconsume\\views\\home\\updatereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\apiconsume\\apiconsume\\views\\home\\addreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|solutionrelative:apiconsume\\views\\home\\addreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\apiconsume\\apiconsume\\apiconsume.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|solutionrelative:apiconsume\\apiconsume.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\apiconsume\\apiconsume\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB4F375-ED26-4D35-A953-C5AED1D80E29}|APIConsume\\APIConsume.csproj|solutionrelative:apiconsume\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Views\\Home\\UpdateReservation.cshtml",
+              "RelativeDocumentMoniker": "APIConsume\\Views\\Home\\UpdateReservation.cshtml",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Views\\Home\\UpdateReservation.cshtml",
+              "RelativeToolTip": "APIConsume\\Views\\Home\\UpdateReservation.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAADwvzQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:00:27.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Views\\Home\\AddReservation.cshtml",
+              "RelativeDocumentMoniker": "APIConsume\\Views\\Home\\AddReservation.cshtml",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Views\\Home\\AddReservation.cshtml",
+              "RelativeToolTip": "APIConsume\\Views\\Home\\AddReservation.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T11:24:04.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Views\\Home\\GetReservation.cshtml",
+              "RelativeDocumentMoniker": "APIConsume\\Views\\Home\\GetReservation.cshtml",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Views\\Home\\GetReservation.cshtml",
+              "RelativeToolTip": "APIConsume\\Views\\Home\\GetReservation.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwC0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T10:15:44.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "APIConsume",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\APIConsume.csproj",
+              "RelativeDocumentMoniker": "APIConsume\\APIConsume.csproj",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\APIConsume.csproj",
+              "RelativeToolTip": "APIConsume\\APIConsume.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-22T10:09:02.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "APIConsume\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "APIConsume\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T09:31:32.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "APIConsume\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "APIConsume\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAowHwAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:21:15.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "APIConsume\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\Models\\Reservation.cs",
+              "RelativeToolTip": "APIConsume\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:14:56.243Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dBfI0O8T048=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\APIConsume\\APIConsume\\APIConsume.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nirmalraj.s\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

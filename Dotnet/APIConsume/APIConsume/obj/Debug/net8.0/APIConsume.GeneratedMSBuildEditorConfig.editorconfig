@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = APIConsume
 build_property.RootNamespace = APIConsume
@@ -17,6 +25,14 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\nirmalraj.s\Documents\Nirmal Raj\Office-works\Dotnet\APIConsume\APIConsume
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nirmalraj.s/Documents/Nirmal Raj/Office-works/Dotnet/APIConsume/APIConsume/Views/CallAPI/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsbEFQSVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nirmalraj.s/Documents/Nirmal Raj/Office-works/Dotnet/APIConsume/APIConsume/Views/CallAPI/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsbEFQSVxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nirmalraj.s/Documents/Nirmal Raj/Office-works/Dotnet/APIConsume/APIConsume/Views/Home/AddReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZXNlcnZhdGlvbi5jc2h0bWw=
@@ -30,8 +46,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/nirmalraj.s/Documents/Nirmal Raj/Office-works/Dotnet/APIConsume/APIConsume/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nirmalraj.s/Documents/Nirmal Raj/Office-works/Dotnet/APIConsume/APIConsume/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nirmalraj.s/Documents/Nirmal Raj/Office-works/Dotnet/APIConsume/APIConsume/Views/Home/ReservationsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNlcnZhdGlvbnNMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nirmalraj.s/Documents/Nirmal Raj/Office-works/Dotnet/APIConsume/APIConsume/Views/Home/UpdateReservation.cshtml]

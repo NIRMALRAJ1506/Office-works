@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\models\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\models\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\migrations\\20240821120907_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\migrations\\20240821120907_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\models\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\models\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|c:\\users\\nirmalraj.s\\documents\\nirmal raj\\office-works\\dotnet\\efcruddemo\\efcruddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{910C36EE-2EE2-455C-A34D-17EF486F9AA7}|EFCRUDDemo\\EFCRUDDemo.csproj|solutionrelative:efcruddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EFCRUDDemo\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Models\\Employee.cs",
+              "RelativeToolTip": "EFCRUDDemo\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T05:45:20.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20240821120907_Migration1.cs",
               "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Migrations\\20240821120907_Migration1.cs",
               "RelativeDocumentMoniker": "EFCRUDDemo\\Migrations\\20240821120907_Migration1.cs",
@@ -75,59 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Department\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "EFCRUDDemo\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T10:56:02.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Department\\Edit.cshtml",
-              "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Department\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Department\\Edit.cshtml",
-              "RelativeToolTip": "EFCRUDDemo\\Views\\Department\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T10:09:01.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "EFCRUDDemo\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "EFCRUDDemo\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvzgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T10:51:39.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "EFCRUDDemo\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "EFCRUDDemo\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAQwEcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:41:28.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Employee\\Index.cshtml",
@@ -135,51 +100,37 @@
               "RelativeToolTip": "EFCRUDDemo\\Views\\Employee\\Index.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAqwB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T09:40:25.869Z",
+              "WhenOpened": "2024-08-21T09:40:25.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Program.cs",
+              "RelativeDocumentMoniker": "EFCRUDDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Program.cs",
+              "RelativeToolTip": "EFCRUDDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T05:31:32.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CompanyContext.cs",
               "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Models\\CompanyContext.cs",
               "RelativeDocumentMoniker": "EFCRUDDemo\\Models\\CompanyContext.cs",
               "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Models\\CompanyContext.cs",
               "RelativeToolTip": "EFCRUDDemo\\Models\\CompanyContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T05:25:31.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Employee\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "EFCRUDDemo\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBIAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T10:51:17.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "EFCRUDDemo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T05:57:09.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\appsettings.json",
               "RelativeDocumentMoniker": "EFCRUDDemo\\appsettings.json",
@@ -192,16 +143,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Program.cs",
-              "RelativeDocumentMoniker": "EFCRUDDemo\\Program.cs",
-              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Program.cs",
-              "RelativeToolTip": "EFCRUDDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "EFCRUDDemo\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "EFCRUDDemo\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:31:32.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T05:41:28.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EFCRUDDemo\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EFCRUDDemo\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvzgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:51:39.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "EFCRUDDemo\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T10:09:01.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "EFCRUDDemo\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T10:56:02.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "EFCRUDDemo\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T10:51:17.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EFCRUDDemo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nirmalraj.s\\Documents\\Nirmal Raj\\Office-works\\Dotnet\\EFCRUDDemo\\EFCRUDDemo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EFCRUDDemo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T05:57:09.333Z"
             }
           ]
         }

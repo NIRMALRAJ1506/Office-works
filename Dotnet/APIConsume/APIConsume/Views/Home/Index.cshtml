@@ -1,41 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "All Reservations";
-
+    ViewData["Title"] = "Home";
 }
-@model IEnumerable<Reservation>
 
-<h1 class="display-4">Reservation</h1>
-<a asp-action="AddReservation" class="btn btn-sm btn-primary">Book Ticket</a>
-<a asp-action="GetReservation" class="btn btn-sm btn-primary">Get Reservation</a>
-<table>
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Start Location</th>
-            <th>End Location</th>
-            <th>Update</th>
-            <th>Delete</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(var r in Model)
-        {
-            <tr>
-                <td>@r.Id</td>
-                <td>@r.Name</td>
-                <td>@r.StartLocation</td>
-                <td>@r.EndLocation</td>
-                <td><a asp-action="UpdateReservation" asp-route-id="@r.Id" class="btn btn-warning">Update</a></td>
-                <td><form asp-action="DeleteReservation" method="post">
-                        <input type="hidden" value="@r.Id" name="Reservation" />
-                        <button type="submit" class="btn btn-danger"> Delete</button>
+<h1>@ViewData["Title"]</h1>
 
-                    
-                </form>
-                </td>
-            </tr>
-        }
-       
-    </tbody>
-</table>
+<p>Welcome to the home page!</p>
+<a asp-action="GetReservation">Get Reservation</a>
+<a asp-action="AddReservation">Add Reservation</a>
+<a asp-action="ReservationsList">View Reservations List</a>

@@ -1,64 +1,35 @@
-﻿@model Reservation
-
-@{
-    ViewBag.Title = "Update Reservation by ID";
+﻿@{
+    ViewData["Title"] = "Update Reservation";
 }
 
-<a asp-action="Index" class="btn btn-sm btn-info">Back</a>
-<h3>@ViewBag.StatusCode</h3>
-<hr />
+<h1>@ViewData["Title"]</h1>
+
 <form asp-action="UpdateReservation" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
     <div class="form-group">
-        <label for="Id">Id: </label>
-        <input class="form-control" asp-for="Id" readonly/>
-    </div>
-    <div class="form-group">
-        <label for="Name">Name: </label>
-        <input class="form-control" asp-for="Name" />
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="Name" value="@Model.Name" required />
     </div>
     <div class="form-group">
-        <label for="StartLocation">StartLocation: </label>
-        <input class="form-control" asp-for="StartLocation" />
+        <label for="startLocation">Start Location</label>
+        <input type="text" class="form-control" id="startLocation" name="StartLocation" value="@Model.StartLocation" required />
     </div>
     <div class="form-group">
-        <label for="EndLocation">EndLocation: </label>
-        <input class="form-control" asp-for="EndLocation" />
+        <label for="endLocation">End Location</label>
+        <input type="text" class="form-control" id="endLocation" name="EndLocation" value="@Model.EndLocation" required />
     </div>
-    <div class="text-center panel-body">
-        <button type="submit" class="btn btn-sm btn-primary"> Update</button>
-    </div>
+    <button type="submit" class="btn btn-primary">Update Reservation</button>
 </form>
 
-@if (ViewBag.Result=="Success")
+@if (Model != null)
 {
-
-    <h2>Booking Detail</h2>
-    
-
-
-    <table class="table table-sm table-striped table-bordered m-2">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>StartLocation</th>
-                <th>EndLocation</th>
-
-
-
-            </tr>
-        </thead>
-        <tbody>
-
-            <tr>
-                <td>@Model.Id</td>
-                <td>@Model.Name</td>
-                <td>@Model.StartLocation</td>
-                <td>@Model.EndLocation</td>
-            </tr>
-        </tbody>
-    </table>
-
-
-
+    <h2>Updated Reservation Details:</h2>
+    <p><strong>ID:</strong> @Model.Id</p>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Start Location:</strong> @Model.StartLocation</p>
+    <p><strong>End Location:</strong> @Model.EndLocation</p>
+}
+else
+{
+    <p>@ViewBag.Message</p>
 }

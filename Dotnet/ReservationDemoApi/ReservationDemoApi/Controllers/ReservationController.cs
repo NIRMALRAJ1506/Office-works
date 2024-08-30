@@ -1,39 +1,92 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ReservationDemoApi.Models;
+using System.Collections.Generic;
 
 namespace ReservationDemoApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class ReservationController : ControllerBase
     {
-        private IRepository repository;
-        public ReservationController(IRepository repo) => repository = repo;
+        private readonly IRepository _repository;
+
+        public ReservationController(IRepository repository) => _repository = repository;
 
         [HttpGet]
-        public IEnumerable<Reservation> Get() => repository.Reservations;
+        public ActionResult<IEnumerable<Reservation>> Get()
+        {
+            return Ok(_repository.Reservations);
+        }
 
         [HttpGet("{id}")]
-        public ActionResult<Reservation>Get(int id)
+        public ActionResult<Reservation> Get(int id)
         {
-            if (id == 0)
+            if (id <= 0)
             {
-                return BadRequest("Value must passed in the request body");
+                return BadRequest("ID must be greater than 0");
             }
-            return Ok(repository[id]);
+
+            var reservation = _repository[id];
+            if (reservation == null)
+            {
+                return NotFound("Reservation not found");
+            }
+
+            return Ok(reservation);
         }
 
         [HttpPost]
-        public Reservation Post([FromBody] Reservation res) =>
-            repository.AddReservation(new Reservation
+        public ActionResult<Reservation> Post([FromBody] Reservation res)
+        {
+            if (res == null)
             {
-                Name=res.Name,
-                StartLocation=res.StartLocation,
-                EndLocation=res.EndLocation
+                return BadRequest("Reservation must be provided");
+            }
+
+            var createdReservation = _repository.AddReservation(new Reservation
+            {
+                Name = res.Name,
+                StartLocation = res.StartLocation,
+                EndLocation = res.EndLocation
             });
-        [HttpPut]
-        public Reservation Put([FromForm] Reservation res) => repository.UpdateReservation(res);
+
+            return CreatedAtAction(nameof(Get), new { id = createdReservation.Id }, createdReservation);
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult<Reservation> Put(int id, [FromBody] Reservation res)
+        {
+            if (id <= 0 || res == null || id != res.Id)
+            {
+                return BadRequest("Invalid reservation data");
+            }
+
+            var updatedReservation = _repository.UpdateReservation(res);
+            if (updatedReservation == null)
+            {
+                return NotFound("Reservation not found");
+            }
+
+            return Ok(updatedReservation);
+        }
+
         [HttpDelete("{id}")]
-        public void Delete(int id) => repository.DeleteReservation(id);
+        public ActionResult Delete(int id)
+        {
+            if (id <= 0)
+            {
+                return BadRequest("ID must be greater than 0");
+            }
+
+            var success = _repository.DeleteReservation(id);
+            if (!success)
+            {
+                return NotFound("Reservation not found");
+            }
+
+            return NoContent();
+        }
     }
 }
